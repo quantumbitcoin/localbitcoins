@@ -9097,8 +9097,21 @@ textarea {
 
 .arrow-display-right {
      position: absolute;
-     top: 27%;
-     right: 22%;
+     /* top: 27%; */
+     right: 75%;
+     margin-top: 16px;
+     background-color: #0d1f47;
      transform: translate(0%, -50%);
      -ms-transform: translate(0%, -50%)
+}
+.sh-trade h5{
+     font-weight: 400;
+     font-size: 15px;
+     padding: 0px 8px;
+     margin-top: 20px;
+}
+.subh-trade p{
+     font-weight: 400;
+     font-size: 15px;
+     padding: 22px 0 0 40px;
 }
