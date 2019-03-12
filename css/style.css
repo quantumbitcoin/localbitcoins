@@ -3622,15 +3622,24 @@ select {
 
 .home-list-pop-rat {
      position: absolute;
-     background: #0d1f47;
-     padding: 4px;
+     background: #ffffff;
+     padding: 0 4px;
      font-weight: 600;
-     color: #fff;
+     color: #000000 !important;
      right: 15px;
-     top: 0px;
+     top: -3px;
      font-size: 14px;
      border-radius: 2px;
 }
+.home-list-pop-rat ul li{
+     border: 1px solid black; 
+     margin-top: 1px;   
+     padding: 1px 0 1px 3px;
+}
+.home-list-pop-rat ul li a{
+     color: #000000 !important;
+}
+
 
 .home-list-pop-rat span {}
 
@@ -9114,4 +9123,9 @@ textarea {
      font-weight: 400;
      font-size: 15px;
      padding: 22px 0 0 40px;
+}
+.iconincard {
+     width: 15px !important;
+     height: 15px !important;
+     padding-bottom: 2px !important;
 }
