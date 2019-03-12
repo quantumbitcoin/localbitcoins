@@ -9107,7 +9107,8 @@ textarea {
 .arrow-display-right {
      position: absolute;
      /* top: 27%; */
-     right: 75%;
+     /* right: 75%; */
+     margin-left: 200px;
      margin-top: 16px;
      background-color: #0d1f47;
      transform: translate(0%, -50%);
