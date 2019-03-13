@@ -330,7 +330,7 @@ a:hover {
      */
      /* padding: 21px 0px 15px 15px;
      */
-     */ display: -webkit-box;
+     display: -webkit-box;
 }
 
 .ts-menu-2 a i {
@@ -3627,14 +3627,16 @@ select {
      font-weight: 600;
      color: #000000 !important;
      right: 15px;
-     top: -3px;
+     top: -7px;
      font-size: 14px;
      border-radius: 2px;
 }
 .home-list-pop-rat ul li{
      border: 1px solid black; 
-     margin-top: 1px;   
+     margin-top: 1px; 
+     margin-bottom: 5px;  
      padding: 1px 0 1px 3px;
+     border-radius: 20px;
 }
 .home-list-pop-rat ul li a{
      color: #000000 !important;
@@ -8594,9 +8596,16 @@ textarea {
      user-select: none;
      /* z-index: 99;
      */
-     background: url('../images/indexbanner01.jpg') no-repeat, #ffffff;
      background-size: cover;
      position: relative;
+}
+
+.bg-top-img{
+     background: url('../images/indexbanner.jpg') no-repeat, #ffffff;
+     width: 100%;
+     height: auto;
+     background-position: center;
+     background-size: 100% 100%;
 }
 
 .dir3-home-head:before {
@@ -9129,4 +9138,13 @@ textarea {
      width: 15px !important;
      height: 15px !important;
      padding-bottom: 2px !important;
+}
+
+.img-in-img {
+     width: 50px !important;
+     height: 50px !important;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     margin-left: 60%;
+     margin-top: -19%;
 }
