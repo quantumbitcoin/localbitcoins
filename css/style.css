@@ -1312,7 +1312,7 @@ a:hover {
 
 .web-app:before {
      content: '';
-     position: absolute;
+     /* position: absolute; */
      background: linear-gradient(to top, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.8) 100%);
      top: 0px;
      bottom: 0px;
@@ -8941,9 +8941,12 @@ textarea {
 }
 
 .quic-book-ser-full {
-     background: #e9f8fd;
+     /* background: #e9f8fd; */
      display: inline-block;
      width: 100%;
+     /* background: url(../images/city.png) bottom center;
+     background-size: 100%;
+     background-repeat: no-repeat; */
 }
 
 .quic-book-ser {}
@@ -9130,7 +9133,7 @@ textarea {
      position: absolute;
      /* top: 27%; */
      /* right: 75%; */
-     margin-left: 200px;
+     margin-left: 325px;
      margin-top: 16px;
      background-color: #0d1f47;
      transform: translate(0%, -50%);
