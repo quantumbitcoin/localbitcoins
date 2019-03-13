@@ -1511,10 +1511,13 @@ footer ul li a:hover {
      padding-top: 50px;
 }
 
-.foot-social {}
+.foot-social {
+     text-align: center;
+}
 
 .foot-social ul {
      padding: 0px;
+     display: inline-block;
 }
 
 .foot-social ul li {
@@ -1559,6 +1562,8 @@ footer ul li a:hover {
 .foot-social ul li:nth-child(6) i {
      background: #34af23;
 }
+
+/* instagram color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) */
 
 .foot-social ul li a:hover {
      padding-left: 0px;
