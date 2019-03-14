@@ -1312,7 +1312,7 @@ a:hover {
 
 .web-app:before {
      content: '';
-     /* position: absolute; */
+     position: absolute;
      background: linear-gradient(to top, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.8) 100%);
      top: 0px;
      bottom: 0px;
@@ -8884,7 +8884,7 @@ textarea {
 }
 
 .land-com-form form ul li input[type="submit"] {
-     background: #f74d40;
+     background: #0d1f47;
      color: #fff;
      height: 50px;
      line-height: 50px;
@@ -8896,9 +8896,8 @@ textarea {
      cursor: pointer;
      padding-left: 0;
      background: -webkit-linear-gradient(to top, #3547ab, #3F51B5);
-     background: linear-gradient(to top, #F44336, #fb5a4e);
-     border: 0px;
-     border-bottom: 1px solid #ea3224;
+     background: linear-gradient(to top, #0d1f47, #0d1f47);
+     border: 1px solid #ffffff;
 }
 
 .land-com-form form ul li:nth-child(5):before {
@@ -8955,18 +8954,20 @@ textarea {
      background-repeat: no-repeat; */
 }
 
-.quic-book-ser {}
+.quic-book-ser {
+     padding-top: 123px;
+}
 
 .quic-book-ser-inn {
      display: table;
-     width: 75%;
+     width: 90%;
      margin: 0 auto;
-     max-width: 1020px;
+     max-width: 1194px;
 }
 
 .quic-book-ser-left {
      float: left;
-     width: 40%;
+     width: 47%;
 }
 
 .quic-book-ser-right {
@@ -9180,4 +9181,76 @@ textarea {
      left: 0;
      top: 0;
      z-index: -1;
+}
+
+.bg-img-lastsec{
+     background: url(../images/NvestATM.png) center;
+     background-repeat: no-repeat;
+}
+
+.drpbtn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     margin-right: 16px;
+}
+
+.drpdown {
+     position: relative;
+     display: inline-block;
+}
+
+.drpdown-content {
+     display: none;
+     position: absolute;
+     right: 0;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     margin-right: 16px;
+}
+
+.drpdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+}
+
+.drpdown-content a:hover {
+     background-color: #f1f1f1;
+}
+
+.drpdown:hover .drpdown-content {
+     display: block;
+}
+
+.drpdown:hover .drpbtn {
+     background-color: #3e8e41;
+}
+
+.rynatm h2{
+     color: #ffffff;
+}
+.natm input{
+     border: unset;
+     border-bottom: 2px solid #ffffff;
+     padding: 0 0 10px 2px;
+     color: #ffffff;
+}
+.natm-bt1 input{
+     color: #ffffff;
+     background-color: #0d1f47 !important;
+     margin: 6px 0 0 0;
+     border-color: #ffffff;
+}
+.natm-bt2 input{
+     color: #ffffff;
+     background-color: #0d1f47 !important;
+     margin: 6px 0 0 -50px !important;
+     border-color: #ffffff;
 }
