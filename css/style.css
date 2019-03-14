@@ -9254,3 +9254,22 @@ textarea {
      margin: 6px 0 0 -50px !important;
      border-color: #ffffff;
 }
+
+.item-1
+{
+     animation-duration: 3.5s;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+@keyframes anim-1 {
+     from {
+          transform: translateX(-100px);
+     }
+
+     to {
+          transform: translateX(0px);
+     }
+}
