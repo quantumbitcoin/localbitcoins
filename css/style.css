@@ -9189,8 +9189,8 @@ textarea {
 }
 
 .drpbtn {
-     background-color: #4CAF50;
-     color: white;
+     background-color: transparent;
+     color: black;
      padding: 16px;
      font-size: 16px;
      border: none;
@@ -9208,7 +9208,7 @@ textarea {
      position: absolute;
      right: 0;
      background-color: #f9f9f9;
-     min-width: 160px;
+     min-width: 215px;
      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
      z-index: 1;
      margin-right: 16px;
@@ -9230,7 +9230,14 @@ textarea {
 }
 
 .drpdown:hover .drpbtn {
-     background-color: #3e8e41;
+     background-color: transparent;
+}
+
+.drpdown-divider {
+     height: 0;
+     margin: .5rem 0;
+     overflow: hidden;
+     border-top: 1px solid #e9ecef
 }
 
 .rynatm h2{
@@ -9253,23 +9260,4 @@ textarea {
      background-color: #0d1f47 !important;
      margin: 6px 0 0 -50px !important;
      border-color: #ffffff;
-}
-
-.item-1
-{
-     animation-duration: 3.5s;
-}
-
-.item-1{
-	animation-name: anim-1;
-}
-
-@keyframes anim-1 {
-     from {
-          transform: translateX(-100px);
-     }
-
-     to {
-          transform: translateX(0px);
-     }
 }
