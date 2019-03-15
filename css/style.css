@@ -8961,7 +8961,7 @@ textarea {
 }
 
 .quic-book-ser {
-     padding-top: 123px;
+     padding-top: 111px;
 }
 
 .quic-book-ser-inn {
@@ -9195,9 +9195,18 @@ textarea {
      z-index: -1;
 }
 
-.bg-img-lastsec{
-     background: url(../images/NvestATM.png) center;
-     background-repeat: no-repeat;
+@media only screen and (min-width: 768px){
+     .bg-img-lastsec{
+          background: url(../images/NvestATM.png) center;
+          background-repeat: no-repeat;
+     }
+}
+@media only screen and (max-width: 767px){
+     .bg-img-lastsec{
+          background: url(../images/NvestATM1.png) center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+     }
 }
 
 .drpbtn {
@@ -9261,6 +9270,9 @@ textarea {
      padding: 0 0 10px 2px;
      color: #ffffff;
 }
+.natm-bt1{
+     padding-left: 15px !important;
+}
 .natm-bt1 input{
      color: #ffffff;
      background-color: #0d1f47 !important;
@@ -9270,7 +9282,7 @@ textarea {
 .natm-bt2 input{
      color: #ffffff;
      background-color: #0d1f47 !important;
-     margin: 6px 0 0 -50px !important;
+     margin: 6px 0 0 0 !important;
      border-color: #ffffff;
 }
 
