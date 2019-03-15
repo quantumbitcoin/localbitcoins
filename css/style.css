@@ -161,7 +161,13 @@ a:hover {
      background-size: cover;
 }
 
-.dir-ho-tl {}
+.dir-ho-tl {
+}
+@media only screen and (min-width: 768px) {
+     .dir-ho-tl {
+          float: right;
+     }
+}
 
 .dir-ho-tl ul {
      padding: 0px;
@@ -1504,11 +1510,11 @@ footer ul li a:hover {
 .foot-logo img {
      width: 200px;
      /* padding-bottom: 20px; */
-     margin-top: -41px;
+     /* margin-top: -41px; */
 }
 
 .foot-sec2 {
-     padding-top: 50px;
+     padding-top: 35px;
 }
 
 .foot-social {
@@ -9146,6 +9152,12 @@ textarea {
      transform: translate(0%, -50%);
      -ms-transform: translate(0%, -50%)
 }
+@media only screen and (max-width: 320px){
+     .arrow-display-right{
+          margin-left: 249px;
+          margin-top: -20px;
+     }
+}
 .sh-trade h5{
      font-weight: 400;
      font-size: 15px;
@@ -9260,4 +9272,11 @@ textarea {
      background-color: #0d1f47 !important;
      margin: 6px 0 0 -50px !important;
      border-color: #ffffff;
+}
+
+.showmore{
+     border: unset !important;
+     box-shadow: unset !important;
+     width: 150px !important;
+     float: right;
 }
