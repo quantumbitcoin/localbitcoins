@@ -9199,6 +9199,7 @@ textarea {
      .bg-img-lastsec{
           background: url(../images/NvestATM.png) center;
           background-repeat: no-repeat;
+          background-size: 100% 100%;
      }
 }
 @media only screen and (max-width: 767px){
