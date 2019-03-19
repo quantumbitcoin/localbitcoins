@@ -8996,6 +8996,15 @@ textarea {
      width: 47%;
 }
 
+@media only screen and (min-width: 1500px){
+     .quic-book-ser-left{
+          width: 40%;
+     }
+     .quic-book-ser-inn{
+          max-width: 2400px;  
+     }
+}
+
 .quic-book-ser-right {
      float: left;
      width: 60%;
@@ -9200,8 +9209,34 @@ textarea {
      height: 50px !important;
      position: absolute;
      transform: translate(-50%, -50%);
-     margin-left: 60%;
-     margin-top: -19%;
+}
+
+/* @media only screen and (max-width: 535px){
+     .img-in-img{
+          margin-left: 82% !important;
+          margin-top: -12% !important;
+     }
+} */
+
+@media only screen and (max-width: 767px){
+     .img-in-img{
+          margin-left: 86%;
+          margin-top: -6%;
+     }
+}
+
+@media only screen and (max-width: 991px){
+     .img-in-img{
+          margin-left: 89%;
+          margin-top: -5%;
+     }
+}
+
+@media only screen and (min-width: 992px){
+     .img-in-img{
+          margin-left: 60%;
+          margin-top: -19%;
+     }
 }
 
 .hero-slider-mask {
