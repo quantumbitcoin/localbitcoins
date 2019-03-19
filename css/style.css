@@ -8960,8 +8960,28 @@ textarea {
      background-repeat: no-repeat; */
 }
 
-.quic-book-ser {
-     padding-top: 111px;
+@media only screen and (min-width:1500px){
+     .quic-book-ser-full{
+          height: 1200px !important;
+     }
+}
+
+@media only screen and (max-width:1499px){
+     .quic-book-ser-full{
+          height: 600px !important;
+     }
+}
+
+@media only screen and (max-width:1499px){
+     .quic-book-ser {
+          padding-top: 111px;
+     }
+}
+
+@media only screen and (min-width:1500px){
+     .quic-book-ser {
+          padding-top: 459px;
+     }
 }
 
 .quic-book-ser-inn {
