@@ -9348,3 +9348,7 @@ textarea {
      width: 150px !important;
      float: right;
 }
+
+.bt-line{
+     border-bottom: 1px solid #cfe5ec;
+}
