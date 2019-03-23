@@ -260,11 +260,11 @@ a:hover {
      -moz-box-shadow: 0 1px 3px #960;
      box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.47);
      border-bottom: 1px solid #111a29;
-     background: #141E30;
+     background: #0d1f47;
      /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #243B55, #141E30);
+     background: -webkit-linear-gradient(to right, #0d1f47, #0d1f47);
      /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #243B55, #141E30);
+     background: linear-gradient(to right, #0d1f47, #0d1f47);
      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
      display: none;
      -webkit-transition: all 0.5s ease;
@@ -3569,7 +3569,7 @@ select {
      position: relative;
      overflow: hidden;
      background: #fdfeff;
-     padding: 8px 0px;
+     padding: 15px 0px;
      margin-bottom: 30px;
      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
@@ -3602,7 +3602,7 @@ select {
 
 .list-ser-img img {
      width: 100%;
-     height: 111px;
+     height: 165px;
      -webkit-object-fit: cover;
      -moz-object-fit: cover;
      -o-object-fit: cover;
@@ -3715,12 +3715,11 @@ select {
 .inn-list-pop-desc {}
 
 .inn-list-pop-desc h3 {
-     font-size: 20px;
+     font-size: 24px;
 }
 
 .inn-list-pop-desc p {
      font-size: 14px;
-     padding-top: 4.6rem;
 }
 
 .inn-list-pop-desc p b {
@@ -7671,8 +7670,8 @@ textarea {
 .v3-top-ri ul li a {
      font-size: 15px;
      color: #fff;
-     background-color: #01a0d8;
-     border: 1px solid #058ab9;
+     background-color: transparent;
+     border: 1px solid transparent;
      font-weight: 400;
      border-radius: 4px;
      padding: 6px 10px;
@@ -9371,12 +9370,27 @@ textarea {
 
 .ser-filt-dis {
      color: #ffffff;
-     /* text-align: center; */
      font-size: 1.6rem;
      padding: 4px 0 36px 0;
 }
 
-.s-bs-btn{
+.ser-list-dis p {
+     padding-top: 4.6rem;
+ }
+
+ .ser-list-dis h3 {
+     font-size: 20px !important;
+ }
+
+ .s-bs-btn{
      float: right;
      margin-top: -8px;
-}
+ }
+
+ .serlist-leftimg img{
+     height: 111px !important;
+ }
+
+ .hlp-pd{
+     padding: 8px 0px !important;
+ }
