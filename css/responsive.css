@@ -47,7 +47,7 @@
         display: none;
     }
     .ts-menu-1 {
-        width: 15%;
+        width: 18%;
     }
     .ts-menu-3 {
         width: 70%;
@@ -55,12 +55,12 @@
     }
     .ts-menu-5 {
         width: 15%;
-        float: left;
+        float: right;
     }
     .ts-menu-5 span {} .ts-menu-5 span i {
 		color: #fff;
 		padding: 11px;
-		background: #01a0d8;
+		background: transparent;
 		margin: 10px 9px 9px 30px;
 		font-size: 16px;
 		cursor: pointer;
@@ -68,10 +68,10 @@
 		border-radius: 35px;
     }
     .ts-menu-1 a img {
-        margin-left: 18px;
-        width: 43px;
+        /* margin-left: 18px; */
+        width: 111px;
         padding: 0px;
-        margin: 6px 28px;
+        /* margin: 6px 28px; */
     }
     .v3-mob-top-menu {
         display: block;
@@ -443,14 +443,14 @@
         width: 20%;
     }
     .ts-menu-1 a img {
-        width: 40px;
-        margin: 10px;
+        /* width: 40px; */
+        /* margin: 10px; */
         /* margin-left: 20px; */
         
         display: table;
         /* margin: 0 auto; */
         
-        margin-left: auto;
+        /* margin-left: auto; */
     }
     .lpe-com-main {
         width: 90%;
