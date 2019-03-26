@@ -9380,6 +9380,11 @@ textarea {
 .ser-list-dis p {
      padding-top: 5.6rem;
  }
+@media only screen and (max-width:991px){
+     .ser-list-dis p {
+          padding-top: 1.6rem;
+      }
+}
 
  .ser-list-dis h3 {
      font-size: 20px !important;
